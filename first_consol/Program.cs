@@ -1,6 +1,8 @@
-﻿using first_consol.Encapsulate;
+﻿using first_consol.Abstra;
+using first_consol.Encapsulate;
 using first_consol.inherite;
 using first_consol.Overloading;
+using first_consol.OverRiding;
 using first_consol.Shape;
 using System;
 // multiple hirearchy
@@ -35,18 +37,33 @@ Bank bank=new Bank();
 bank.setValue(1234);
 Console.WriteLine("the atm pin is " + bank.getReturn());
 */
-
+Area area = new Area();
 //method overloading
 /*
-Area area = new Area();
 area.TSA(5,3);
 Console.WriteLine(area);
 Console.ReadLine();
 */
 
+/*
+Console.WriteLine("ENter two integer");
+int x=Convert.ToInt32(Console.ReadLine());
+int y=Convert.ToInt32(Console.ReadLine());
+int z = area.Math(x, y);
+Console.WriteLine("The sum is :" + z);
+
+Console.WriteLine("ENter two double");
+double l = Convert.ToDouble(Console.ReadLine());
+double m = Convert.ToDouble(Console.ReadLine());
+double n = area.Math(l, m);
+Console.WriteLine("The diference is :" + n);
+*/
+
+// Area of rectangle and circle according to input by users
+/*
 Rectangle rectangle=new Rectangle();
 Circle circle=new Circle();
-Console.WriteLine("type CIRCLE to calculate area of circle, and RECTANGLE to calculate area of rectangle");
+Console.WriteLine("Type CIRCLE to calculate area of circle, and RECTANGLE to calculate area of rectangle");
 string shape=Console.ReadLine();
 
 
@@ -63,4 +80,23 @@ else
 {
     Console.WriteLine("please type CIRCLE or RECTANGLE");
 }
+*/
+/*
+Phone phone=new Phone();
+Android android=new Android();
+ApplePhone applePhone=new ApplePhone();
+
+Console.WriteLine(phone.ShutDown());
+Console.WriteLine(applePhone.ShutDown());
+Console.WriteLine(android.ShutDown());
+*/
+/*
+Boat ford = new Ship();
+Console.WriteLine(ford.BoatMove());
+Console.WriteLine(ford.BoatType());
+*/
+Ivechile vechile =new Ivechile();
+Console.WriteLine(vechile.description());
+Console.WriteLine(vechile.name());
+
 Console.ReadLine();

@@ -16,5 +16,15 @@ namespace first_consol.Overloading
         {
             Console.WriteLine(pie * r * r);
         }
+        
+        public int Math(int a, int b)
+        {
+            return a + b;
+        }
+        
+        public double Math(double a, double b)
+        {
+            return a - b;
+        }
     }
 }
