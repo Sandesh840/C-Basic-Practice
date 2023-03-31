@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\course\\first_con\\first_consol\\first_consol.csproj": {}
+    "E:\\pratical\\test\\first_consol\\first_consol.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\course\\first_con\\first_consol\\first_consol.csproj": {
+    "E:\\pratical\\test\\first_consol\\first_consol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\course\\first_con\\first_consol\\first_consol.csproj",
+        "projectUniqueName": "E:\\pratical\\test\\first_consol\\first_consol.csproj",
         "projectName": "first_consol",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\course\\first_con\\first_consol\\first_consol.csproj",
+        "projectPath": "E:\\pratical\\test\\first_consol\\first_consol.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\course\\first_con\\first_consol\\obj\\",
+        "outputPath": "E:\\pratical\\test\\first_consol\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

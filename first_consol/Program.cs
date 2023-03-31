@@ -98,5 +98,4 @@ Console.WriteLine(ford.BoatType());
 Ivechile vechile =new Ivechile();
 Console.WriteLine(vechile.description());
 Console.WriteLine(vechile.name());
-
-Console.ReadLine();
+string a= Console.ReadLine();
