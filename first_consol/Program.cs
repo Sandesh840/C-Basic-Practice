@@ -1,4 +1,5 @@
 ﻿using first_consol.Abstra;
+using first_consol.construct;
 using first_consol.Encapsulate;
 using first_consol.inherite;
 using first_consol.Overloading;
@@ -95,8 +96,21 @@ Boat ford = new Ship();
 Console.WriteLine(ford.BoatMove());
 Console.WriteLine(ford.BoatType());
 */
+
+/*
 Ivechile vechile =new Ivechile();
 Console.WriteLine(vechile.description());
 Console.WriteLine(vechile.name());
+*/
+
+
+//constructor
+int x = 7;
+Construct con = new Construct();
+Construct con1 = new Construct(x);
+
+con.Show();
+con1.Showpara();
+
 
 Console.ReadLine();
