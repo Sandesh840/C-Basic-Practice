@@ -6,6 +6,7 @@ using first_consol.Overloading;
 using first_consol.OverRiding;
 using first_consol.Shape;
 using System;
+using System.Runtime.InteropServices;
 // multiple hirearchy
 /*
 Redmi red=new Redmi();
@@ -105,12 +106,66 @@ Console.WriteLine(vechile.name());
 
 
 //constructor
+/*
 int x = 7;
 Construct con = new Construct();
 Construct con1 = new Construct(x);
-
 con.Show();
 con1.Showpara();
+con.ShowStatic();
+*/
+
+/*
+//calling paramater cons with employee detail
+string a = "hari";
+int b = 20;
+Employee emp = new Employee(a,b);
+Employee copy = new Employee(emp);
+*/
+
+
+/*
+// CallingConvention private constructor
+PriCons.getManager("boi", "258");
+*/
+// int i = 5; i <= 5; i++
+
+int a = 1;
+Console.WriteLine("this is a while loop");
+while (a<=5)
+{
+    Console.WriteLine("the num is "+a);
+    a += 1;
+}
+Console.WriteLine("this is a do while loop");
+int b = 1;
+do
+{
+    Console.WriteLine("the number is :" + b);
+    b += 1;
+}
+while(b<=5);
+
+Console.WriteLine("this is a for loop");
+for(int i = 1; i < 5; i++)
+{
+    Console.WriteLine("the number is :" +i);
+}
+
+Console.WriteLine("this is for each loop");
+//creating lists
+
+List<int>Numbers = new List<int>();
+Numbers.Add(1); 
+Numbers.Add(2);
+Numbers.Add(3);
+Numbers.Add(4);
+Numbers.Add(5);
+
+foreach(int item in Numbers)
+{
+    Console.WriteLine("the number is: "+ item);
+}
 
 
 Console.ReadLine();

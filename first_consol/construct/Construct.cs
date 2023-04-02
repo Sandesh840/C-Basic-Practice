@@ -10,6 +10,10 @@ namespace first_consol.construct
     {
         int num = 0;
         int a;
+        public static string name;
+        public static int age;
+
+        //default constructor
         public Construct()
         {
             num = 5;
@@ -18,6 +22,7 @@ namespace first_consol.construct
         {
             Console.WriteLine(num);
         }
+        //parameterized construct
         public Construct(int ab)
         {
             a= ab;
@@ -27,5 +32,17 @@ namespace first_consol.construct
             Console.WriteLine(a);
            
         }
+        //static constructor
+        static Construct()
+        {
+            name = "sandesh";
+            age = 21;
+            // Console.WriteLine(name+age);
+        }
+        public void ShowStatic()
+        {
+            Console.WriteLine(name + age);
+        }
+        
     }
 }
