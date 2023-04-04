@@ -40,42 +40,8 @@ namespace first_consol.statement
             //        Console.WriteLine("the number " + i + " is odd");
             //    }
             //}
-
-
-
-            /*
-            //prime or not
-            for (int i = 3; i < 31; i++)
-            {
-                int check = 0;
-                for(int a=2;a<i-1; a++)
-                {
-                    if (i % a == 0)
-                    {
-                        check = 1;
-                        Console.WriteLine(i + "is a not prime number");
-                        break;
-                    }                               
-                }
-                if(check == 0)
-                {
-                    Console.WriteLine(i + "is a  prime number");
-                }
-             }
-            */
-            int n = 123;
-            int rev = 0;
-            if (n > 0)
-            {
-                rev=(rev*10)+(n%10);
-                n = n / 10;
-            }
+        
             
-            Console.WriteLine(rev);
-            
-
-
-
         }
     }
 }
