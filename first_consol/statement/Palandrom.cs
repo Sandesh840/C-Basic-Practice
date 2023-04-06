@@ -12,25 +12,23 @@ namespace first_consol.statement
         {
             Console.WriteLine("kati oota number ko fibo series chayo?");
             int n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Are You sure");
-            string y = Console.ReadLine();
-            Console.WriteLine("Feri sochau?");
-            string z = Console.ReadLine();
-            Console.WriteLine("LOCK KIYA JAYA?");
-            string w = Console.ReadLine();
-
-            
+            //console.writeline("are you sure");
+            //string y = console.readline();
+            //console.writeline("feri sochau?");
+            //string z = console.readline();
+            //console.writeline("lock kiya jaya?");
+            //string w = console.readline();
             int a = 0;
             int b = 1;
             int c=0;
-            Console.WriteLine("0");
-            Console.WriteLine("1");
+            Console.Write("0 ");
+            Console.Write(" 1 ");
             for(int i = 2; i <=n ; i++)
             {
                 c = a + b;
                 a = b;
                 b = c;
-                Console.WriteLine(c);
+                Console.Write(" "+c);
             }
         }
     }

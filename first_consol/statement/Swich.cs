@@ -51,6 +51,23 @@ namespace first_consol.statement
                         break;
                 }
             }
+
+
+            //Console.WriteLine("ehter the number to find off or even");
+            //int a=Convert.ToInt32(Console.ReadLine());
+
+            //for(int i = 1; i <= a; i++)
+            //{
+
+            //    switch (i%2)
+            //    {
+
+            //        case 0: Console.WriteLine(i + "even");
+            //        break;
+            //        default: Console.WriteLine(i + "odd");
+            //            break ;
+            //    }
+            //}    
         }
     }
 }
